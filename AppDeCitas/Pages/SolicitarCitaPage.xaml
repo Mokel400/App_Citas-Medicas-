@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppDeCitas.Pages.SolicitarCitaPage"
+             Title="Solicitar Cita">
+    <VerticalStackLayout 
+        VerticalOptions="Start"
+        Padding="30"
+        Margin="25">
+        <Label 
+            x:Name="solicitarCitaTitulo"
+            Text="Solicitar cita"
+            HorizontalOptions="Center"/>
+        <Entry
+            x:Name="Nombre"
+            Placeholder="Nombre"/>
+        <Entry
+            x:Name="Apellido"
+            Placeholder="Apellido"/>
+        <Entry
+            x:Name="nPaciente"
+            Placeholder="Número de paciente"
+            Keyboard="Numeric"/>
+        <HorizontalStackLayout>
+            <CheckBox
+                x:Name="Recordar"/>
+            <Label
+                x:Name="RecordarDatos"
+                Text="Recordar mis datos"
+                VerticalOptions="Center"/>
+        </HorizontalStackLayout>
+        <CollectionView>
+            
+            
+            
+            
+            
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>
