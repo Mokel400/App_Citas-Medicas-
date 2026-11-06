@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppDeCitas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2681912a2b67f9f1b466761955c7546f43d86c8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+de38e9738049a8d8ee74ddd6e60361c6aa252981")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppDeCitas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppDeCitas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
