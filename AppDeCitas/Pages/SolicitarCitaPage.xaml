@@ -18,7 +18,7 @@
             x:Name="Apellido"
             Placeholder="Apellido"/>
         <Entry
-            x:Name="nPaciente"
+            x:Name="Paciente"
             Placeholder="Número de paciente"
             Keyboard="Numeric"/>
         <HorizontalStackLayout>
@@ -29,12 +29,32 @@
                 Text="Recordar mis datos"
                 VerticalOptions="Center"/>
         </HorizontalStackLayout>
-        <CollectionView>
-            
-            
-            
-            
-            
+        <CollectionView x:Name="especialidades" SelectionMode="Single">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width=".2*"/>
+                            <ColumnDefinition Width=".6*"/>
+                            <ColumnDefinition Width=".4*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.Column="0" Source="{Binding imagen}"/>
+                        <VerticalStackLayout Grid.Column="1" Padding="10,0" VerticalOptions="Center">
+                            <Label Text="{Binding nombre}"
+                                   FontAttributes="Bold"/>
+                            <Label Text="{Binding especialista}"/>
+                        </VerticalStackLayout>
+                        <VerticalStackLayout
+                            Grid.Column="2"
+                            Padding="10">
+                            <Label
+                                Text="{Binding espera}"
+                                FontAttributes="Bold"/>
+                            <Label Text="días de espera"/>
+                        </VerticalStackLayout>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
         </CollectionView>
     </VerticalStackLayout>
 </ContentPage>

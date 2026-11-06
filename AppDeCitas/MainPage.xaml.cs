@@ -7,9 +7,11 @@
 
         public MainPage()
         {
-            InitializeComponent();
+        InitializeComponent();
         }
 
+        
+        
         public void SolicitarCitaBtnClicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Pages.SolicitarCitaPage());

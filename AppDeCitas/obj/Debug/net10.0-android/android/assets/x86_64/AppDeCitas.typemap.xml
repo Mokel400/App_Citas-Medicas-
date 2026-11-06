@@ -1,4 +1,4 @@
-<api type="debug" assembly-name="AppDeCitas" mvid="135b12040aa141d7b9aa535d9e0415a9">
+<api type="debug" assembly-name="AppDeCitas" mvid="262b86cb47dd4df8bc305f4a16260cf2">
   <java-to-managed>
     <entry java-name="crc6468669b1ea23c7a50/MainActivity" managed-name="AppDeCitas.MainActivity, AppDeCitas" managed-type-token-id="33554442" />
     <entry java-name="crc6468669b1ea23c7a50/MainApplication" managed-name="AppDeCitas.MainApplication, AppDeCitas" managed-type-token-id="33554443" />
